@@ -1,0 +1,33 @@
+@import '../../css/variables.scss';
+
+.card {
+  width: 320px;
+  height: 270px;
+  background: $white;
+  border-radius: 4px;
+  border: 1px solid $gray;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  cursor: default;
+
+  .title {
+    margin: 0;
+    color: $blue;
+    font-size: 21px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .name {
+    color: gray;
+    font-size: 14px;
+    position: absolute;
+    bottom: 15px;
+  }
+}
